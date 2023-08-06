@@ -1,0 +1,62 @@
+{
+  "helloWorld": "Xin chào thế giới!",
+  "@helloWorld": {
+    "description": "Lời chào thông thường của lập trình viên moi"
+  },
+  "hello": "Xin chào {userName}",
+  "@hello": {
+    "description": "Một tin nhắn với một tham số duy nhất",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Bob"
+      }
+    }
+  },
+  "appVariant": "Môi trường: {env}",
+    "@appVariant": {
+      "description": "A message with a single parameter",
+      "placeholders": {
+        "env": {
+          "type": "String"
+        }
+      }
+    },
+  "nWombats": "{count, plural, =0{Con Gấu Túi} =1{1 Con Gấu Túi} other{{count} Con Gấu Túi}}",
+  "@nWombats": {
+    "description": "Một tin nhắn số nhiều",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "pronoun": "{gender, select, male{Nam} female{Nữ} other{Khác}}",
+  "@pronoun": {
+    "description": "Một tin nhắn giới tính",
+    "placeholders": {
+      "giới tính": {
+        "type": "String"
+      }
+    }
+  },
+  "numberOfDataPoints": "Số điểm dữ liệu: {value}",
+  "@numberOfDataPoints": {
+    "description": "Thư có tham số int được format",
+    "placeholders": {
+      "giá trị": {
+        "type": "int",
+        "format": "compactCurrency",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "page_not_found":"Không tìm thấy!",
+  "back":"Quay lại",
+  "ok":"Ok",
+  "cancel":"Huỷ",
+  "notification":"Thông báo"
+}

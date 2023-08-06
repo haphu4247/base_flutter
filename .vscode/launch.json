@@ -1,0 +1,109 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Prod debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+              ]
+        },
+        {
+            "name": "Prod release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+              ]
+        },
+        {
+            "name": "Prod Debug Preview",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_prod_preview.dart",
+            "args": [
+                "--flavor",
+                "prod"
+              ]
+        },
+        {
+            "name": "Prod Release Preview",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_prod_preview.dart",
+            "args": [
+                "--flavor",
+                "prod"
+              ]
+        },
+        {
+            "name": "Dev debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev"
+              ]
+        },
+        {
+            "name": "Dev release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev"
+              ]
+        },
+        {
+            "name": "Dev Debug Preview",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main_dev_preview.dart",
+            "args": [
+                "--flavor",
+                "dev"
+              ]
+        },
+        {
+            "name": "Dev Release Preview",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_dev_preview.dart",
+            "args": [
+                "--flavor",
+                "dev"
+              ]
+        },
+        {
+            "name": "Main debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main.dart",
+            
+        },
+        {
+            "name": "Main release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            
+        },
+    ]
+}

@@ -1,0 +1,12 @@
+#cmd: flutter pub run flutter_native_splash:create --path=flutter_native_splash_ios.yaml --flavor prod
+#cmd: flutter pub run flutter_native_splash:create --path=flutter_native_splash_ios.yaml --flavor dev
+#cmd: flutter pub run flutter_native_splash:create --path=flutter_native_splash_ios.yaml
+flutter_native_splash:
+  #light theme
+  color: "#ED1C24"
+  image: assets/images/splash/lotte_logo.png
+  fullscreen: true
+  ios: true
+  
+  android: false
+  web: false
